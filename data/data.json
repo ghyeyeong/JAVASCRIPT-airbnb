@@ -1,0 +1,58 @@
+{
+    "rooms": [
+        {
+            "id": "1",
+            "title": "제주 바다가 보이는 감성 숙소",
+            "location": "제주도 제주시",
+            "price": 120000,
+            "rating": 4.9,
+            "category": "제주",
+            "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1481780448913990546/original/543ca5a3-449e-4971-91a0-84da4a3d2b2a.jpeg?im_w=1440"
+        },
+        {
+            "id": "2",
+            "title": "서울 한강뷰 모던 하우스",
+            "location": "서울 마포구",
+            "price": 98000,
+            "rating": 4.8,
+            "category": "서울",
+            "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1693478781569481587/original/0c81ea6e-4a4a-4a59-9cd1-12afbc027e4d.jpeg?im_w=1200"
+        },
+        {
+            "id": "3",
+            "title": "강릉 바다 앞 독채 숙소",
+            "location": "강원도 강릉시",
+            "price": 150000,
+            "rating": 4.95,
+            "category": "강릉",
+            "image": "https://a0.muscache.com/im/pictures/1de8c5fc-7aaa-41d2-8b95-1ea9e71c17b4.jpg?im_w=1440"
+        },
+        {
+            "id": "4",
+            "title": "제주 조용한 숲속 스테이",
+            "location": "제주도 서귀포시",
+            "price": 135000,
+            "rating": 4.87,
+            "category": "제주",
+            "image": "https://a0.muscache.com/im/pictures/f088a8ff-d4b6-4b2a-b8fd-66f38079bc28.jpg?im_w=1200"
+        },
+        {
+            "id": "5",
+            "title": "서울 도심 속 감성 스튜디오",
+            "location": "서울 종로구",
+            "price": 89000,
+            "rating": 4.76,
+            "category": "서울",
+            "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1744733122585956738/original/ae9ea666-4c18-4982-9c15-0d55cb5c952b.jpeg?im_w=1200"
+        },
+        {
+            "id": "6",
+            "title": "부산 오션뷰 테라스 하우스",
+            "location": "부산광역시 해운대구",
+            "price": 175000,
+            "rating": 4.92,
+            "category": "부산",
+            "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1734805701700273638/original/b9b471ae-f5f0-4e07-b782-977adae1c734.jpeg?im_w=1200"
+        }
+    ]
+}

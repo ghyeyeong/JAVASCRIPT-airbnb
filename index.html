@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- 모바일에서도 화면 크기에 맞춰 보이도록 설정 -->
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Stay Finder</title>
+
+    <!-- CSS 연결 -->
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+</head>
+
+<body>
+
+    <!-- =========================
+         Header
+    ========================== -->
+    <header class="header">
+        <div class="inner">
+            <h1 class="logo">
+                Stay Finder
+            </h1>
+        </div>
+    </header>
+
+
+    <!-- =========================
+         Main
+    ========================== -->
+    <main class="main">
+
+        <div class="inner">
+
+            <!-- 페이지 제목 -->
+            <div class="title-area">
+                <h2>추천 숙소</h2>
+                <p>
+                    원하는 여행지의 숙소를 찾아보세요.
+                </p>
+            </div>
+
+
+            <!-- =========================
+                 지역 필터 버튼
+            ========================== -->
+            <div class="filter">
+
+                <button
+                    type="button"
+                    class="filter-btn active"
+                    data-category="전체"
+                >
+                    전체
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-btn"
+                    data-category="서울"
+                >
+                    서울
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-btn"
+                    data-category="제주"
+                >
+                    제주
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-btn"
+                    data-category="강릉"
+                >
+                    강릉
+                </button>
+
+                <button
+                    type="button"
+                    class="filter-btn"
+                    data-category="부산"
+                >
+                    부산
+                </button>
+
+            </div>
+
+
+            <!-- =========================
+                 숙소가 출력될 영역
+                 
+                 JavaScript가 이 안에
+                 숙소 카드를 만들어 넣습니다.
+            ========================== -->
+            <div
+                id="roomList"
+                class="room-list"
+            ></div>
+
+        </div>
+
+    </main>
+
+    <!-- JavaScript 연결 -->
+    <script src="js/script.js"></script>
+</body>
+</html>
