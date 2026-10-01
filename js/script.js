@@ -16,7 +16,7 @@ function getRooms() {
        <p class="message">숙소 정보를 불러오는 중입니다...</p>
     `;
     //json서버에서 데이터를 요청
-    fetch('http://localhost:3000/rooms')
+    fetch('./data/data.json')
         .then(response => {
             console.log('서버응답:', response);
 
@@ -30,13 +30,12 @@ function getRooms() {
         .then(data => {
             console.log('data:', data);
 
-            //서버에서 가져온 숙소데이터를 rooms 변수에 저장
-            rooms = data;
-            console.log('rooms', rooms)
+            rooms = data.rooms;
+            console.log('rooms:', rooms);
 
-            //숙소목록을 화면에 출력
-            renderRooms(rooms)
+            renderRooms(rooms);
         })
+
         .catch(error => {
             console.log(error)
             roomList.innerHTML = `<p class='message'>숙소 정보를 불러오지 못했습니다.</p>`;
